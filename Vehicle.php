@@ -84,5 +84,10 @@ class Vehicle
     {
         $this->nbWheels = $nbWheels;
     }
+
+    public function start()
+    {
+        return "Engine on !";
+    }
 }
 ?>
